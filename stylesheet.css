@@ -4,6 +4,12 @@ body {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 30px;
 }
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
 p {
   line-height: 1.5;
   margin-bottom: 3em;
