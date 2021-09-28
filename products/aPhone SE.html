@@ -187,7 +187,7 @@
             次の仕上げから選べます。
           </h3>
           <h4>
-            <span style="color: #494949;" onCopy="return false;">●</span>&nbsp;<span style="color: #E5EBEE" onCopy="return false;">●</span>&nbsp;<span style="color: #FD4F4E;" onCopy="return false;">●</span>&nbsp;<span style="color: #0A30FF;" onCopy="return false;">●</span>&nbsp;<span style="color: #B4FB9F;" onCopy="return false;">●</span>
+            <span style="color: #494949;" class="protect">●</span>&nbsp;<span style="color: #E5EBEE" class="protect">●</span>&nbsp;<span style="color: #FD4F4E;" class="protect">●</span>&nbsp;<span style="color: #0A30FF;" class="protect">●</span>&nbsp;<span style="color: #B4FB9F;" class="protect">●</span>
           </h4>
         </div>
         <div id=".11" class="margin-wide">
@@ -216,5 +216,14 @@
         <footer>
             <p class="text-muted">2021 (c)aPple<br><a href="#head" style="font-size: 16px;">ページのトップに戻る</a></p>
         </footer>
+        <script>
+          $(".protect").bind
+          ("contextmenu", function(e)
+          {return false;});
+          $("body").mousedown
+          (function(e)
+          {return false;}
+          );
+        </script>
     </body>
 </html>
