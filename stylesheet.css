@@ -29,7 +29,7 @@ a.btn-radius-solid:hover {
   text-align: right;
 }
 .margin-wide{
-  margin: 150%;
+  margin: 150% 0%;
 }
 ul {
   list-style: none;
