@@ -38,15 +38,15 @@
           <hr>
           <h3>仕上げを選ぶ</h3>
           <p>
-          <span style="color: #494949;" onCopy="return false;">●</span>&nbsp;ブラック
+          <span style="color: #494949;" class="protect">●</span>&nbsp;ブラック
           <br><br>
-          <span style="color: #E5EBEE;" onCopy="return false;">●</span>&nbsp;ホワイト
+          <span style="color: #E5EBEE;" class="protect">●</span>&nbsp;ホワイト
           <br><br>
-          <span style="color: #FD4F4E;" onCopy="return false;">●</span>&nbsp;レッド
+          <span style="color: #FD4F4E;" class="protect">●</span>&nbsp;レッド
           <br><br>
-          <span style="color: #0A30FF;" onCopy="return false;">●</span>&nbsp;ブルー
+          <span style="color: #0A30FF;" class="protect">●</span>&nbsp;ブルー
           <br><br>
-          <span style="color: #B4FB9F;" onCopy="return false;">●</span>&nbsp;グリーン
+          <span style="color: #B4FB9F;" class="protect">●</span>&nbsp;グリーン
           </h3>
           <p class="text-muted" style="font-size: 16px;">カラー：レッドは、売り上げの一部がSDGsに貢献されます。&nbsp;<a href="https://shinno-0624.github.io/aPple/products/colorred.html">さらに詳しく</a></p>
         </div>
@@ -103,5 +103,14 @@
         <footer>
             <p class="text-muted">2021 (c)aPple<br><a href="#head" style="font-size: 16px;">ページのトップに戻る</a></p>
         </footer>
+        <script>
+          $(".protect").bind
+          ("contextmenu", function(e)
+          {return false;});
+          $("body").mousedown
+          (function(e)
+          {return false;}
+          );
+        </script>
     </body>
 </html>
