@@ -1,3 +1,2 @@
 # aPple
-An official site of aPple.
-This site is fiction.
+<p>aPpleの公式サイト。<br>このサイトの内容はすべてフィクションです。</p>
