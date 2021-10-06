@@ -2,7 +2,7 @@ body {
   background-color: white;
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1.75vw;
+  font-size: 22px;
 }
 a.btn-radius-solid {
   border: 1px solid #ccc;
@@ -20,7 +20,7 @@ a.btn-radius-solid:hover {
   background: linear-gradient(to top, #fdfbfb 0%, #ebedee 100%);
 }
 .text-little{
-  font-size: 1.5vw;
+  font-size: 18px;
 }
 .text-left {
   text-align: left;
@@ -30,19 +30,19 @@ a.btn-radius-solid:hover {
 }
 ul {
   list-style: none;
-  font-size: 1.75vw;
+  font-size: 22px;
 }
 h1 {
   color: black;
-  font-size: 3vw;
+  font-size: 38px;
 }
 h2 {
   color: black;
-  font-size: 2.5vw;
+  font-size: 32px;
 }
 h3 {
   color: black;
-  font-size: 2vw;
+  font-size: 26px;
 }
 .text-muted {
   color: rgb(63, 61, 61);
