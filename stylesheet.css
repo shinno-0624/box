@@ -1,5 +1,4 @@
 body {
-  background-color: white;
   text-align: center;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 22px;
@@ -33,15 +32,12 @@ ul {
   font-size: 22px;
 }
 h1 {
-  color: black;
   font-size: 38px;
 }
 h2 {
-  color: black;
   font-size: 32px;
 }
 h3 {
-  color: black;
   font-size: 26px;
 }
 .text-muted {
