@@ -1,0 +1,129 @@
+/* menu */
+.menu-left {
+  text-align: right;
+  float: left;
+}
+
+.menu-right {
+  text-align: right;
+  float: right;
+}
+
+/* title */
+.title {
+  margin-top: 200px;
+  margin-bottom: 35em;
+}
+
+.title > h1 {
+  font-weight: bold;
+}
+
+.time {
+  color: #bdbb42;
+  font-weight: normal;
+}
+
+.health {
+  color: #eb4d5d;
+  font-weight: normal;
+}
+
+.enviro {
+  color: #19e33e;
+  font-weight: normal;
+}
+
+/* function */
+.function {
+  margin-top: 35em;
+  margin-bottom: 35em;
+}
+
+.a {
+  text-align: center;
+}
+
+.ab {
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+/* fit to you */
+.fit_to_you {
+  margin-top: 35em;
+  margin-bottom: 35em;
+}
+
+/* battery */
+.battery {
+  margin-top: 35em;
+  margin-bottom: 35em;
+}
+
+.battery-strong {
+  color: #B6FF9B;
+  font-weight: normal;
+  -webkit-text-stroke: 0.25px #000;
+}
+
+/* apay */
+.apay {
+  margin-top: 35em;
+  margin-bottom: 35em;
+}
+
+/* security */
+.security {
+  margin-top: 35em;
+  margin-bottom: 35em;
+}
+
+/* strong */
+.strong {
+  margin-top: 35em;
+  margin-bottom: 35em;
+}
+
+.diamond {
+  color: #E9EDF2;
+  font-weight: normal;
+  -webkit-text-stroke: 0.25px #000;
+}
+
+.emergency {
+  color: #FF0000;
+}
+
+/* mobile */
+.mobile {
+  margin-top: 35em;
+  margin-bottom: 35em;
+}
+
+/* info */
+hr .info {
+  margin-top: 35em;
+  margin-bottom: 16px;
+}
+
+/* note */
+.note1 {
+  display: table;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.note2 {
+  text-align: left;
+  display: inline-block;
+  color: #808080;
+  font-size: 13px;
+}
+
+/* alert */
+.alert {
+  color: #FF0000;
+  font-weight: bold;
+}
