@@ -131,3 +131,8 @@ p {
 br {
   margin-bottom: 8px;
 }
+
+/* table */
+table {
+  text-align: center;
+}
