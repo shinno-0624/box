@@ -134,6 +134,5 @@ table {
   margin-bottom: 8px;
 }
 .event-scedule span {
-  margin-bottom: -16px;
-  margin-top: -16px;
+  line-height: 0px;
 }
