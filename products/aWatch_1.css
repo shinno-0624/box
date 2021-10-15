@@ -119,3 +119,16 @@ hr .info {
   color: #FF0000;
   font-weight: bold;
 }
+
+/* all */
+h2 {
+  margin-bottom: 12px;
+}
+
+p {
+  margin-bottom: 12px;
+}
+
+br {
+  margin-bottom: 8px;
+}
