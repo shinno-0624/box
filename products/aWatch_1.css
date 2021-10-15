@@ -12,7 +12,7 @@
 /* title */
 .title {
   margin-top: 200px;
-  margin-bottom: 35em;
+  margin-bottom: 70em;
 }
 
 .title > h1 {
@@ -36,8 +36,7 @@
 
 /* function */
 .function {
-  margin-top: 35em;
-  margin-bottom: 35em;
+  margin-bottom: 70em;
 }
 
 .a {
@@ -52,14 +51,12 @@
 
 /* fit to you */
 .fit_to_you {
-  margin-top: 35em;
-  margin-bottom: 35em;
+  margin-bottom: 70em;
 }
 
 /* battery */
 .battery {
-  margin-top: 35em;
-  margin-bottom: 35em;
+  margin-bottom: 70em;
 }
 
 .battery-strong {
@@ -70,20 +67,17 @@
 
 /* apay */
 .apay {
-  margin-top: 35em;
-  margin-bottom: 35em;
+  margin-bottom: 70em;
 }
 
 /* security */
 .security {
-  margin-top: 35em;
-  margin-bottom: 35em;
+  margin-bottom: 70em;
 }
 
 /* strong */
 .strong {
-  margin-top: 35em;
-  margin-bottom: 35em;
+  margin-bottom: 70em;
 }
 
 .diamond {
@@ -98,13 +92,11 @@
 
 /* mobile */
 .mobile {
-  margin-top: 35em;
-  margin-bottom: 35em;
+  margin-bottom: 70em;
 }
 
 /* info */
 hr .info {
-  margin-top: 35em;
   margin-bottom: 16px;
 }
 
