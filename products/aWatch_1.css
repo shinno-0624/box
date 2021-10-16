@@ -82,7 +82,7 @@
 .content_diamond_strong {
   color: #E9EDF2;
   font-weight: normal;
-  -webkit-text-stroke: 0.25px #000;
+  -webkit-text-stroke: 0.5px #000;
 }
 
 .content_emergency_strong {
