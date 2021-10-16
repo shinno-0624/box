@@ -7,7 +7,7 @@
   <li>Android(Chrome, Firefox)</li>
   <li>Windows(Chrome, Microsoft Edge, Firefox)</li>
 </ul>
-<p><strong>Not recommended in old "Internet Exploler".<hr>It can 100% works in Chrome or Firefox.</strong></p>
+<p><strong>Not recommended in old "Internet Exploler".<br>It can 100% works in Chrome or Firefox.</strong></p>
 <hr>
 <h2>Notice</h2>
 <p>This site is optimized to PC. We effort that mobile can shown this site well, but maybe this site is not able to show in mobile that's correct.
