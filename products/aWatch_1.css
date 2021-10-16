@@ -19,17 +19,17 @@
   font-weight: bold;
 }
 
-.content_time_strong {
+.title_content_time_strong {
   color: #bdbb42;
   font-weight: normal;
 }
 
-.content_health_strong {
+.title_content_health_strong {
   color: #eb4d5d;
   font-weight: normal;
 }
 
-.content_enviro_strong {
+.title_content_enviro_strong {
   color: #19e33e;
   font-weight: normal;
 }
@@ -37,6 +37,26 @@
 /* function */
 .function {
   margin-bottom: 70em;
+}
+
+.function_content_time_strong {
+  color: #bdbb42;
+  font-weight: normal;
+}
+
+.function_content_health_strong {
+  color: #eb4d5d;
+  font-weight: normal;
+}
+
+.funtcion_content_air_strong {
+  color: #7fffd4;
+  font-weight: normal;
+}
+
+.function_content_enviro_strong {
+  color: #19e33e;
+  font-weight: normal;
 }
 
 .content_sensor {
@@ -54,12 +74,32 @@
   margin-bottom: 70em;
 }
 
+.fit_content_sizeL_strong {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+.fit_content_sizeM_strong {
+  font-size: 23px;
+  font-weight: normal;
+}
+
+.fit_content_case_spacegray_strong {
+  color: #3f454d;
+  font-weight: normal;
+}
+
+.fit_content_case_shinygold_strong {
+  color: #c2a463;
+  font-weight: normal;
+}
+
 /* battery */
 .battery {
   margin-bottom: 70em;
 }
 
-.content_battery_strong {
+.battery_content_battery_strong {
   color: #09ff00;
   font-weight: normal;
 }
@@ -79,13 +119,28 @@
   margin-bottom: 70em;
 }
 
-.content_diamond_strong {
+.strong_content_display_diamond_strong {
   color: #E9EDF2;
   font-weight: normal;
   -webkit-text-stroke: 0.5px #000;
 }
 
-.content_emergency_strong {
+.strong_content_display_glass_strong {
+  color: #86e7c7;
+  font-weight: normal;
+}
+
+.strong_content_display_sheld_strong {
+  color: rgb(36, 103, 105);
+  font-weight: normal;
+}
+
+.strong_content_display_plastic_strong {
+  color: rgb(165, 180, 180);
+  font-weight: normal;
+}
+
+.strong_content_emergency_strong {
   color: #FF0000;
 }
 
