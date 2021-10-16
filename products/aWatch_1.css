@@ -30,7 +30,7 @@
 }
 
 .title_content_enviro_strong {
-  color: #19e33e;
+  color: #0bc02c;
   font-weight: normal;
 }
 
@@ -40,22 +40,22 @@
 }
 
 .function_content_time_strong {
-  color: #bdbb42;
+  color: #BDBB42;
   font-weight: normal;
 }
 
 .function_content_health_strong {
-  color: #eb4d5d;
+  color: #EB4D5D;
   font-weight: normal;
 }
 
 .function_content_air_strong {
-  color: #7fffd4;
+  color: #62cca9;
   font-weight: normal;
 }
 
 .function_content_enviro_strong {
-  color: #19e33e;
+  color: #0bc02c;
   font-weight: normal;
 }
 
@@ -85,12 +85,12 @@
 }
 
 .fit_content_case_spacegray_strong {
-  color: #3f454d;
+  color: #3F454D;
   font-weight: normal;
 }
 
 .fit_content_case_shinygold_strong {
-  color: #c2a463;
+  color: #C2A463;
   font-weight: normal;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .battery_content_battery_strong {
-  color: #09ff00;
+  color: #07ca00;
   font-weight: normal;
 }
 
@@ -122,21 +122,21 @@
 .strong_content_display_diamond_strong {
   color: #E9EDF2;
   font-weight: normal;
-  -webkit-text-stroke: 0.5px #000;
+  -webkit-text-stroke: 0.75px #000;
 }
 
 .strong_content_display_glass_strong {
-  color: #86e7c7;
+  color: #86E7C7;
   font-weight: normal;
 }
 
 .strong_content_display_sheld_strong {
-  color: rgb(36, 103, 105);
+  color: #246769;
   font-weight: normal;
 }
 
 .strong_content_display_plastic_strong {
-  color: rgb(165, 180, 180);
+  color: #A5B4B4;
   font-weight: normal;
 }
 
