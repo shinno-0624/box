@@ -1,10 +1,6 @@
 body {
   text-align: center;
 }
-* {
-  margin-bottom: 16px;
-  text-align: center;
-}
 a.btn-radius-solid {
   border: 1px solid #ccc;
   background: #f1e767;
