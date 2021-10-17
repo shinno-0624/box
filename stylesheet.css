@@ -33,13 +33,25 @@ ul .non-decoration{
   font-size: 22px;
 }
 h1 {
-  font-size: 38px;
-}
-h2 {
   font-size: 32px;
 }
+h2 {
+  font-size: 24px;
+}
 h3 {
-  font-size: 26px;
+  font-size: 19px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 13px;
+}
+h6 {
+  font-size: 8.25px;
+}
+* {
+  font-size: 13px;
 }
 .text-muted {
   color: rgb(63, 61, 61);
