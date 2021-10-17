@@ -130,7 +130,7 @@ background    : linear-gradient(transparent 70%, rgba(255, 255, 26, 0.60) 65%);
 }
 table {
   display: inline-block;
-  text-align: center;
+  align-items: center;
   font-size: 70%;
   word-break: normal;
 }
