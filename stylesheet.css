@@ -3,6 +3,7 @@ body {
 }
 * {
   margin-bottom: 16px;
+  text-align: center;
 }
 a.btn-radius-solid {
   border: 1px solid #ccc;
@@ -129,7 +130,6 @@ border-bottom : 2px solid rgba(255, 255, 26, 0.60);
 background    : linear-gradient(transparent 70%, rgba(255, 255, 26, 0.60) 65%);
 }
 table {
-  align-items: center;
   font-size: 70%;
   word-break: normal;
 }
