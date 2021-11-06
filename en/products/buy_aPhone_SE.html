@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>aPhone SEを購入</title>
+        <title>Buy aPhone SE</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -23,82 +23,75 @@
             </nav>
         </header>
         <div style="margin-bottom: 20px;"> </div>
-        <div style="background: #fff; border: 1px #ccc solid; box-shadow: 0 2px 3px 0 #ddd; font-size: 100%; padding: 20px;">
-          <h1 style="color: #FF0000;">お詫びとお知らせ</h1>
-          <h3>10月31日ごろより当ページにアクセスできない問題が発生していました。<br>お客様にはご迷惑をおかけしましたこと、お詫び申し上げます。</h3>
-          <h3>なお、発生原因についてはサーバー側の問題と認識しております。今後はメンテナンス等を徹底するようにして参ります。</h3>
-        </div>
-        <div style="margin-top: 40px;">
-          <h2>aPhone SEを購入</h2>
-          <h3>販売中</h3>
-          <h4><a href="https://shinno-0624.github.io/aPple/en/products/aPhone_SE.html">aPhone SEについて詳しく</a></h4>
-          <p class="text-muted">Mapbook, Mapbook Pro, Mapbook mini, Mapbook compactを下取りに出すと、￥31,400~65,000割引になります。(条件が適用されます)</p>
+        <div>
+          <h2>Buy aPhone SE</h2>
+          <h3>Now on sale</h3>
+          <h5><a href="https://shinno-0624.github.io/aPple/en/products/aPhone_SE.html">Learn more about aPhone SE</a></h5>
+          <p class="text-muted">Trade in your aPC, aPhone, or other aPple product for a discount of ~$820. (Approximate. Terms and conditions apply)</p>
         </div>
         <div>
           <hr>
-          <h3 style="margin-bottom: 12px;">機種を選ぶ</h3>
+          <h3 style="margin-bottom: 12px;">Select a model</h3>
           <div style="text-align: center;">
-            <div style="text-align: left; display: inline-block;">
-              <p>aPhone SE(必須)<br><span style="font-size: 16px;">43,850円</span></p>
-            </div>
+            <select name="product">
+              <option value="aPhone 1">aPhone SE($399)</option>
+            </select>
           </div>
           <hr>
-          <h3 style="margin-bottom: 12px;">仕上げを選ぶ</h3>
+          <h3 style="margin-bottom: 12px;">Select a Finish</h3>
           <div style="text-align: center;">
-            <div style="text-align: left; display: inline-block;">
-              <p style="margin-bottom: 8px;"><span style="color: #494949;">●</span> ブラック</p>
-              <p style="margin-bottom: 8px;"><span style="color: #E5EBEE;">●</span> ホワイト</p>
-              <p style="margin-bottom: 8px;"><span style="color: #FD4F4E;">●</span> レッド</p>
-              <p style="margin-bottom: 8x;"><span style="color: #0A30FF;">●</span> ブルー</p>
-              <p style="margin-bottom: 8px;"><span style="color: #B4FB9F;">●</span> グリーン</p>
+            <select name="color">
+              <option value="black">Black</option>
+              <option value="white">White</option>
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+            </select>
           </div>
-          <p class="text-muted">カラー：レッドは、売り上げの一部がSDGsに貢献されます。 <a href="https://shinno-0624.github.io/aPple/en/products/colorred.html">さらに詳しく</a></p>
         </div>
         <hr>
-        <h3 style="margin-bottom: 12px;">容量を選ぶ</h3>
+        <h3 style="margin-bottom: 12px;">Select Capacity</h3>
         <div style="text-align: center;">
-          <div style="text-align: left; display: inline-block;">
-            <p style="margin-bottom: 8px;">64GB<br><span style="font-size: 16px;">+0円</span></p>
-            <p style="margin-bottom: 8px;">128GB<br><span style="font-size: 16px;">+12,000円</span></p>
-            <p style="margin-bottom: 8px;">256GB<br><span style="font-size: 16px;">+24,000円</span></p>
-          </div>
+          <select name="capacity">
+            <option value="128GB">64GB(+$0)</option>
+            <option value="256GB">128GB(+$105)</option>
+            <option value="512GB">256GB(+$210)</option>
+          </select>
         </div>
         </p>
         <hr>
-        <h3 style="margin-bottom: 12px;">充電のタイプを選ぶ</h3>
+        <h3 style="margin-bottom: 12px;">Choose charging type</h3>
         <div style="text-align: center;">
-          <div style="text-align: left; display: inline-block;">
-            <p style="margin-bottom: 8px;">Speed(aPple独自)<br><span style="font-size: 16px;">+0円</span></p>
-            <p style="margin-bottom: 12px;">USB-C<br><span style="font-size: 16px;">+15,000円</span></p>
-          </div>
+          <select name="charge-type">
+            <option value="Speed">Speed(+$0)</option>
+            <option value="usb-c">USB-C(+$130)</option>
+          </select>
         </div>
-        <p><span class="text-muted">おすすめ: Speed(aPple独自)<br>aPhone専用の充電タイプSpeedは、aPpleが特別に開発しました。<br>aPhoneとSpeedの愛称は非常に良く、aPhone SEで実現できる超高速充電はUSB-Cタイプでは期待できません。<br>安く、速いSpeedをお選びください。<br>しかし、「充電ケーブルをこれ以上用意するのが嫌だ」などの場合は15,000円を上乗せしてUSB-Cタイプに変更することができます。</span></p>
+        <p><span class="text-muted">Recommendation: Speed<br>Speed is a charging type specially developed for aPhone by aPple.<br>Speed is specially developed by aPple for aPhone. aPhone and Speed have a very good rapport, and the super-fast charging that aPhone SE can achieve is not something you can expect from a USB-C type.<br>Choose the cheaper and faster Speed.<br>However, if you don't want to prepare any more charging cables, you can change to USB-C type with an additional $130.</span></p>
         <hr>
-        <h3 style="margin-bottom: 12px;">aPple製品を下取りに出す</h3>
-        <div style="text-align: center;">
-          <div style="text-align: left; display: inline-block;">
-            <p style="margin-bottom: 8px;">Mapbook<br><span style="font-size: 16px;">45,600円~割引</span></p>
-            <p style="margin-bottom: 8px;">Mapbook Pro<br><span style="font-size: 16px;">65,000円~割引</span></p>
-            <p style="margin-bottom: 8px;">Mapbook mini<br><span style="font-size: 16px;">41,000円~割引</span></p>
-            <p>Mapbook compact<br><span style="font-size: 16px;">31,400円~割引</span></p>
-          </div>
+        <h3 style="margin-bottom: 12px;">Trade in your aPple product</h3>
+        <p><a href="https://shinno-0624.github.io/aPple/en/support/trade_in.html">Click here</a> for deetails</p>
         </div>
         <hr>
-        <h3 style="margin-bottom: 12px;">周辺機器を追加する</h3>
+        <h3 style="margin-bottom: 12px;">Adding Peripherals</h3>
         <div style="text-align: center;">
           <div style="text-align: left; display: inline-block;">
-            <p style="margin-bottom: 8px;">USB-C - Speed ケーブル(0.5m)<br><span style="font-size: 16px;">+560円</span></p>
-            <p style="margin-bottom: 8px;">USB-C - Speed ケーブル(1m)<br><span style="font-size: 16px;">+980円</span></p>
-            <p style="margin-bottom: 8px;">USB-C - Speed ケーブル(2m)<br><span style="font-size: 16px;">+1,200円</span></p>
-            <p style="margin-bottom: 8px;">USB-C - Speed ケーブル(3m)<br><span style="font-size: 16px;">+1,500円</span></p>
-            <p style="margin-bottom: 8px;">USB-C - Speed ケーブル(5m)<br><span style="font-size: 16px;">+1,800円</span></p>
-            <p style="margin-bottom: 8px;">USB-C変換アダプタ(USB-PD対応)<br><span style="font-size: 16px;">+2,100円</span></p>
-            <p style="margin-bottom: 8px;">ワイヤレス充電スタンド(USB-A接続)<br><span style="font-size: 16px;">+5,200円</span></p>
-            <p>aPhone SE専用 レザーケース(<span style="color: #191F21;">●</span><sub>ブラック</sub>  <span style="color: #6E797D;">●</span><sub>グレー</sub>  <span style="color: #A25222;">●</span><sub>ブラウン</sub>  <span style="color: #2A5834;">●</span><sub>ダークグリーン</sub>  <span style="color: #594E52;">●</span><sub>グラファイト</sub>)<br><span style="font-size: 16px;">+4,800円</span></p>
+            <p style="margin-bottom: 8px;"><input type="checkbox" name="cable-0.5m" id="cable-0.5m"><label for="cable-0.5m">USB-C - Speed cable(0.5m) +$4.9</label></p>
+            <p style="margin-bottom: 8px;"><input type="checkbox" name="cable-1m" id="cable-1m"><label for="cable-1m">USB-C - Speed cable(1m) +$8.6</label></p>
+            <p style="margin-bottom: 8px;"><input type="checkbox" name="cable-2m" id="cable-2m"><label for="cable-2m">USB-C - Speed cable(2m) +$10.5</label></p>
+            <p style="margin-bottom: 8px;"><input type="checkbox" name="cable-3m" id="cable-3m"><label for="cable-3m">USB-C - Speed cable(3m) +$13.2</label></p>
+            <p style="margin-bottom: 8px;"><input type="checkbox" name="cable-5m" id="cable-5m"><label for="cable-5m">USB-C - Speed cable(5m) +$15.8</label></p>
+            <p style="margin-bottom: 8px;"><input type="checkbox" name="usb-c-adapter" id="usb-c-adapter"><label for="usb-c-adapter">USB-C conversion adapter (USB-PD compatible) +$18.5</label></p>
+            <p style="margin-bottom: 8px;"><input type="checkbox" name="wireless-stand" id="wireless-stand"><label for="wireless-stand">Wireless charging stand (USB-A connection) +45.7</label></p>
+            <p><input type="checkbox" name="lethercase" id="lethercase"><label for="lethercase">Leather case for aPhone SE(<span style="color: #191F21;">●</span> <span style="color: #6E797D;">●</span> <span style="color: #A25222;">●</span> <span style="color: #2A5834;">●</span> <span style="color: #594E52;">●</span>) +$42.2</label></p>
           </div>
           </div>
-        <button class="button">購入</button>
-        <p class="text-muted">お届け予定日:最短で2日後</p>
+        <button class="button" onclick="location.href=('https://shinno-0624.github.io/aPple/en/received_aPhone_1.html')">Pre-order</button>
+        <p class="text-muted">Scheduled delivery date: 9:00 a.m. on December 25 for orders placed by December 22</p>
+        <!-- 売り切れた場合
+        <button class="button" onclick="alert('The product is sold out. Please try again after a while.')">Pre-order</button>
+        <p class="text-muted">Scheduled delivery date: 9:00 a.m. on December 25 for orders placed by December 22</p>
+        -->
         <a href="#head" class="btn btn--circle btn--circle-c btn--shadow upper" style="font-size: 1vmax;">↑</a>
         <span style="margin-top: 16px;"> </span>
         <hr><footer>
