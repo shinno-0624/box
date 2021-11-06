@@ -1,4 +1,6 @@
 # aPple
+<hr>
+<a href="https://shinno-0624.github.io/aPple/jp/aPple.html">日本語ページ</a>&nbsp;/&nbsp;<a href="https://shinno-0624.github.io/aPple/en/aPple.html">English page</a>
 <p>Official Site of "aPple".<br><strong>Content in this site is fiction.</strong></p>
 <hr>
 <h2>Work in:</h2>
