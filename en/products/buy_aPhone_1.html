@@ -34,18 +34,22 @@
           <h3 style="margin-bottom: 12px;">Select a model</h3>
           <div style="text-align: center;">
             <select name="product">
-              <option value="aPhone 1">aPhone 1($499)</option>
+              <optgroup label="Select Model">
+                <option value="aPhone 1">aPhone 1($499)</option>
+              </optgroup>
             </select>
           </div>
           <hr>
           <h3 style="margin-bottom: 12px;">Select a Finish</h3>
           <div style="text-align: center;">
             <select name="color">
-              <option value="black">Black</option>
-              <option value="white">White</option>
-              <option value="red">Red</option>
-              <option value="blue">Blue</option>
-              <option value="yellow">Yellow</option>
+              <optgroup label="Select Color">
+                <option value="black">Black</option>
+                <option value="white">White</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="yellow">Yellow</option>
+              </optgroup>
             </select>
           </div>
         </div>
@@ -53,9 +57,11 @@
         <h3 style="margin-bottom: 12px;">Select Capacity</h3>
         <div style="text-align: center;">
           <select name="capacity">
-            <option value="128GB">64GB(+$0)</option>
-            <option value="256GB">128GB(+$105)</option>
-            <option value="512GB">256GB(+$210)</option>
+            <optgroup label="Select Capacity">
+              <option value="128GB">64GB(+$0)</option>
+              <option value="256GB">128GB(+$105)</option>
+              <option value="512GB">256GB(+$210)</option>
+            </optgroup>
           </select>
         </div>
         </p>
@@ -63,8 +69,10 @@
         <h3 style="margin-bottom: 12px;">Choose charging type</h3>
         <div style="text-align: center;">
           <select name="charge-type">
-            <option value="Speed">Speed(+$0)</option>
-            <option value="usb-c">USB-C(+$130)</option>
+            <optgroup label="Select Charge Type">
+              <option value="Speed">Speed(+$0)</option>
+              <option value="usb-c">USB-C(+$130)</option>
+            </optgroup>
           </select>
         </div>
         <p><span class="text-muted">Recommendation: Speed<br>Speed is a charging type specially developed for aPhone by aPple.<br>Speed is specially developed by aPple for aPhone. aPhone and Speed have a very good rapport, and the super-fast charging that aPhone SE can achieve is not something you can expect from a USB-C type.<br>Choose the cheaper and faster Speed.<br>However, if you don't want to prepare any more charging cables, you can change to USB-C type with an additional $130.</span></p>
@@ -85,11 +93,13 @@
             <p style="margin-bottom: 8px;"><input type="checkbox" name="wireless-stand" id="wireless-stand"><label for="wireless-stand">Wireless charging stand (USB-A connection) +$45.7</label></p>
             <p><input type="checkbox" name="lethercase" id="lethercase"><label for="lethercase">Leather case for aPhone 1(<span style="color: #191F21;">●</span> <span style="color: #6E797D;">●</span> <span style="color: #A25222;">●</span> <span style="color: #2A5834;">●</span> <span style="color: #594E52;">●</span>)
               <select name="case-color">
-                <option value="black">Black</option>
-                <option value="silver">Silver</option>
-                <option value="brown">Brown</option>
-                <option value="darkgreen">Dark Green</option>
-                <option value="graphite">Graphite</option>
+                <optgroup label="Select Case Color">
+                  <option value="black">Black</option>
+                  <option value="silver">Silver</option>
+                  <option value="brown">Brown</option>
+                  <option value="darkgreen">Dark Green</option>
+                  <option value="graphite">Graphite</option>
+                </optgroup>
               </select>
                +$45.7</label></p>
           </div>
