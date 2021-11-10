@@ -4,6 +4,9 @@ body {
   font-size: 22px;
   margin-bottom: 12px;
 }
+sup {
+  text-decoration: none;
+}
 a.btn-radius-solid {
   border: 1px solid #ccc;
   background: #f1e767;
