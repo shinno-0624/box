@@ -69,10 +69,9 @@ font-size: 20px;
 color: black;
 text-align: center;
 }
-.maa {
+a {
   font-family: 'Noto Sans JP', sans-serif;
-  color: #0066CC;
-  text-decoration: none;
+  color: black;
 }
 .css-fukidashi {
 padding: 0;
