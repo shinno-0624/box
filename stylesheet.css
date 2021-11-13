@@ -69,7 +69,7 @@ font-size: 20px;
 color: black;
 text-align: center;
 }
-a {
+.main a {
   font-family: 'Noto Sans JP', sans-serif;
   color: #0066CC;
   text-decoration: none;
