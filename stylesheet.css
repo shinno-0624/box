@@ -71,7 +71,8 @@ text-align: center;
 }
 a {
   font-family: 'Noto Sans JP', sans-serif;
-  color: black;
+  color: #0066CC;
+  text-decoration: none;
 }
 .css-fukidashi {
 padding: 0;
