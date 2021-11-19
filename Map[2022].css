@@ -1,0 +1,25 @@
+/* 1 */
+.intro {
+  margin-bottom: 1120px;
+}
+.intro-title {
+  font-weight: bolder;
+}
+
+/* 2 */
+.overview {
+  margin-bottom: 1120px;
+}
+.overview-aPC {
+  font-weight: bold;
+}
+.overview-highpower {
+  font-weight: bold;
+}
+/* 3 */
+.CPU {
+  margin-bottom: 1120px;
+}
+.CPU-iCp22100Z {
+  font-weight: bold;
+}
