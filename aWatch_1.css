@@ -2,6 +2,7 @@
 .menu_left {
   text-align: right;
   float: left;
+  font-weight: bolder;
 }
 
 .menu_right {
