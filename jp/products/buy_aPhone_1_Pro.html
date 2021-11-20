@@ -1,22 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inaccessible</title>
-</head>
-<body>
-  <div style="text-align: center; margin-top: 100px; line-height: 80px;">
-    <h1>目的のWebサイトにアクセスできませんでした。もう一度お試しいただき、それでもアクセスできない場合はしばらく時間をおいてからお試しください。</h1>
-    <h1>The website you want to visit could not be accessed. Please try again, and if you still cannot access the website, please wait for a while before trying again.</h1>
-    <h1>我们无法访问你要求的网站。 请再试一次，如果你仍然无法访问网站，请等待片刻后再试。</h1>
-    <h1>No hemos podido acceder al sitio web que ha solicitado. Por favor, inténtelo de nuevo y si sigue sin poder acceder al sitio web, espere unos momentos antes de volver a intentarlo.</h1>
-  </div>
-</body>
-</html>
-<!--
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -42,14 +24,14 @@
         </header>
         <div style="margin-bottom: 20px;">&nbsp;</div>
         <div>
-          <h2>aPhone&nbsp;1&nbsp;Proを購入</h2>
-          <h3>12月25日に発売</h3>
+          <h2 style="font-weight: bold;"><strong>aPhone&nbsp;1&nbsp;Pro</strong>を購入</h2>
+          <h3 style="font-weight: bold;">12月25日に発売</h3>
           <h5><a href="https://shinno-0624.github.io/aPple/jp/products/aPhone_1.html">aPhone&nbsp;1&nbsp;Proについて詳しく</a></h5>
           <p class="text-muted">aPC、aPhoneなどのaPple製品をを下取りに出すと、~93,150円割引になります。(目安。条件が適用されます。)</p>
         </div>
         <div>
           <hr>
-          <h3 style="margin-bottom: 12px;">機種を選ぶ</h3>
+          <h3 style="margin-bottom: 12px; font-weight: bold;">機種を選ぶ</h3>
           <div style="text-align: center;">
             <select name="product">
               <optgroup label="機種を選択">
@@ -58,7 +40,7 @@
             </select>
           </div>
           <hr>
-          <h3 style="margin-bottom: 12px;">仕上げを選ぶ</h3>
+          <h3 style="margin-bottom: 12px; font-weight: bold;">仕上げを選ぶ</h3>
           <div style="text-align: center;">
             <select name="color">
               <optgroup label="カラーを選択">
@@ -71,7 +53,7 @@
           </div>
         </div>
         <hr>
-        <h3 style="margin-bottom: 12px;">容量を選ぶ</h3>
+        <h3 style="margin-bottom: 12px; font-weight: bold;">容量を選ぶ</h3>
         <div style="text-align: center;">
           <select name="capacity">
             <optgroup label="容量を選択">
@@ -83,7 +65,7 @@
         </div>
         </p>
         <hr>
-        <h3 style="margin-bottom: 12px;">充電のタイプを選ぶ</h3>
+        <h3 style="margin-bottom: 12px; font-weight: bold;">充電のタイプを選ぶ</h3>
         <div style="text-align: center;">
           <select name="charge-type">
             <optgroup label="充電タイプを選択">
@@ -94,11 +76,11 @@
         </div>
         <p><span class="text-muted">おすすめ: Speed<br>aPhone専用の充電タイプSpeedは、aPpleが特別に開発しました。<br>aPhoneとSpeedの愛称は非常に良く、aPhone SEで実現できる超高速充電はUSB-Cタイプでは期待できません。<br>安く、速いSpeedをお選びください。<br>しかし、「充電ケーブルをこれ以上用意するのが嫌だ」などの場合は15,000円を上乗せしてUSB-Cタイプに変更することができます。</span></p>
         <hr>
-        <h3 style="margin-bottom: 12px;">aPple製品を下取りに出す</h3>
+        <h3 style="margin-bottom: 12px; font-weight: bold;">aPple製品を下取りに出す</h3>
         <p>詳しくは<a href="https://shinno-0624.github.io/aPple/jp/support/trade_in.html">こちら</a></p>
         </div>
         <hr>
-        <h3 style="margin-bottom: 12px;">周辺機器を追加する</h3>
+        <h3 style="margin-bottom: 12px; font-weight: bold;">周辺機器を追加する</h3>
         <div style="text-align: center;">
           <div style="text-align: left; display: inline-block;">
             <p style="margin-bottom: 8px;"><input type="checkbox" name="cable-0.5m" id="cable-0.5m"><label for="cable-0.5m">USB-C - Speed ケーブル(0.5m)&nbsp;+560円</label></p>
@@ -121,7 +103,7 @@
               &nbsp;+5,980円</label></p>
           </div>
           </div>
-        <button class="button" onclick="location.href=('https://shinno-0624.github.io/aPple/jp/received_aPhone_1_Pro.html')">予約注文</button>
+        <button class="button" onclick="alert('商品はまだ予約注文できません。予約注文開始日をご確認の上、もう一度お試しください。')">予約注文</button>
         <p class="text-muted">お届け予定日:12月22日までのご注文で12月25日の9時~</p>
         <a href="#head" class="btn btn--circle btn--circle-c btn--shadow upper" style="font-size: 1vmax;">↑</a>
         <span style="margin-top: 16px;">&nbsp;</span>
@@ -131,5 +113,8 @@
     </body>
 </html>
 <!--
+<button class="button" onclick="location.href=('https://shinno-0624.github.io/aPple/jp/received_aPhone_1_Pro.html')">予約注文</button>
+<p class="text-muted">お届け予定日:12月22日までのご注文で12月25日の9時~</p>
+
 <button class="button" onclick="alert('商品は売り切れています。しばらくたってからもう一度お試しください。')">予約注文</button>
 <p class="text-muted">お届け予定日:12月22までのご注文で12月25日の9時~</p>

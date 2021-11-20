@@ -1,22 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inaccessible</title>
-</head>
-<body>
-  <div style="text-align: center; margin-top: 100px; line-height: 80px;">
-    <h1>目的のWebサイトにアクセスできませんでした。もう一度お試しいただき、それでもアクセスできない場合はしばらく時間をおいてからお試しください。</h1>
-    <h1>The website you want to visit could not be accessed. Please try again, and if you still cannot access the website, please wait for a while before trying again.</h1>
-    <h1>我们无法访问你要求的网站。 请再试一次，如果你仍然无法访问网站，请等待片刻后再试。</h1>
-    <h1>No hemos podido acceder al sitio web que ha solicitado. Por favor, inténtelo de nuevo y si sigue sin poder acceder al sitio web, espere unos momentos antes de volver a intentarlo.</h1>
-  </div>
-</body>
-</html>
-<!--
-<!DOCTYPE html>
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
@@ -42,14 +24,14 @@
         </header>
         <div style="margin-bottom: 20px;">&nbsp;</div>
         <div>
-          <h2>aWatch&nbsp;1を購入</h2>
-          <h3>12月29日に発売</h3>
+          <h2 style="font-weight: bold;"><strong>aWatch&nbsp;1</strong>を購入</h2>
+          <h3 style="font-weight: bold;">12月29日に発売</h3>
           <h5><a href="https://shinno-0624.github.io/aPple/jp/products/aWatch_1.html">aWatch&nbsp;1について詳しく</a></h5>
           <p class="text-muted">aPC、aPhoneなどのaPple製品をを下取りに出すと、~93,150円割引になります。(目安。条件が適用されます。)</p>
         </div>
         <div>
           <hr>
-          <h3 style="margin-bottom: 12px;">機種を選ぶ</h3>
+          <h3 style="margin-bottom: 12px; font-weight: bold;">機種を選ぶ</h3>
           <div style="text-align: center;">
             <select name="product">
               <optgroup label="機種を選択">
@@ -59,7 +41,7 @@
             </select>
           </div>
           <hr>
-          <h3 style="margin-bottom: 12px;">サイズを選ぶ</h3>
+          <h3 style="margin-bottom: 12px; font-weight: bold;">サイズを選ぶ</h3>
           <div style="text-align: center;">
             <select name="size">
               <optgroup label="サイズを選択">
@@ -70,7 +52,7 @@
             <p class="text-muted">サイズLは手首が140~200mmの方に、サイズMは手首が130~180mmの方にフィットします。</p>
           </div>
           <hr>
-          <h3 style="margin-bottom: 12px;">ケースのカラーを選ぶ</h3>
+          <h3 style="margin-bottom: 12px; font-weight: bold;">ケースのカラーを選ぶ</h3>
           <div style="text-align: center;">
             <select name="color">
               <optgroup label="ケースのカラーを選択">
@@ -81,7 +63,7 @@
           </div>
         </div>
         <hr>
-        <h3 style="margin-bottom: 12px;">バンドを選ぶ</h3>
+        <h3 style="margin-bottom: 12px; font-weight: bold;">バンドを選ぶ</h3>
         <div style="text-align: center;">
           <select name="band" id="">
             <optgroup label="シリコンスポーツバンド(+1,890円)">
@@ -104,11 +86,11 @@
           </select>
         </div>
         <hr>
-        <h3 style="margin-bottom: 12px;">aPple製品を下取りに出す</h3>
+        <h3 style="margin-bottom: 12px; font-weight: bold;">aPple製品を下取りに出す</h3>
         <p>詳しくは<a href="https://shinno-0624.github.io/aPple/jp/support/trade_in.html">こちら</a></p>
         </div>
         <br>
-        <button class="button" onclick="location.href=('https://shinno-0624.github.io/aPple/jp/received_aWatch_1.html')">予約注文</button>
+        <button class="button" onclick="alert('商品はまだ予約注文できません。予約注文開始日をご確認の上、もう一度お試しください。')">予約注文</button>
         <p class="text-muted">お届け予定日:12月26日までのご注文で12月29日の12時~</p>
         <a href="#head" class="btn btn--circle btn--circle-c btn--shadow upper" style="font-size: 1vmax;">↑</a>
         <span style="margin-top: 16px;">&nbsp;</span>
@@ -118,5 +100,8 @@
     </body>
 </html>
 <!--
+<button class="button" onclick="location.href=('https://shinno-0624.github.io/aPple/jp/received_aWatch_1.html')">予約注文</button>
+<p class="text-muted">お届け予定日:12月26日までのご注文で12月29日の12時~</p>
+
 <button class="button" onclick="alert('商品は売り切れています。しばらくたってからもう一度お試しください。')">予約注文</button>
 <p class="text-muted">お届け予定日:12月26までのご注文で12月29日の12時~</p>
