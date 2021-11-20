@@ -51,9 +51,13 @@ details[open] .details-content {
     transform: none;
   }
 }
+.disflex {
+  display: flex;
+  justify-content: space-between;
+}
         </style>
     </head>
-    <body class="container ">
+    <body class="container ice">
         <header id="head">
           <h1><a href="https://shinno-0624.github.io/aPple/jp/aPple.html" style="text-decoration: none; font-weight: bolder;">aPple</a></h1><br>
             <nav class="nav">
@@ -69,18 +73,45 @@ details[open] .details-content {
         <div id=".1" class="intro">
           <h1 class="intro-title" style="font-size: 500%;">Map</h1>
         </div>
-        <div id=".2" class="overview">
-          <h2><strong class="overview-aPC">aPC</strong>のデスクトップPC</h2>
-          <h3>あなたの家に<strong class="overview-highpower">高性能</strong>を</h3>
+        <div id=".2" class="overview disflex">
+          <div class="item">
+            <h2 style="font-size: 200%;"><strong class="overview-aPC">aPC</strong>のデスクトップPC</h2>
+            <h3>あなたの家に<strong class="overview-highpower">高性能</strong>を</h3>
+          </div>
+          <div class="item">
+            <details style="background-color: azure;">
+              <summary>aPCのデスクトップPC</summary>
+              <div class="details-content">
+                aPCのデスクトップPC、その名も、<strong>Map</strong>。<br>Mapbookを更に高性能にして、あなたのデスクにお届け。
+              </div>
+            </details>
+          </div>
         </div>
-        <div id=".3" class="CPU">
-          <h2>2022年エントリーモデル</h2>
-          <h3>最新のiCpを搭載</h3>
-          <p>Mapには最新のiCp、<strong class="CPU-iCp22100Z">iCp2022.10000Z</strong>を搭載しました。</p>
-          <details>
+        <div id=".3" class="CPU disflex">
+          <div class="item">
+            <h2 style="font-weight: bold; font-size: 200%;">2022年エントリーモデル</h2>
+            <h3>最新のiCpを搭載</h3>
+            <p>Mapには最新のiCp、<strong class="CPU-iCp22100Z">iCp2022.10000Z</strong>を搭載しました。</p>
+          </div>
+          <div class="item">
+            <details style="background-color: azure;">
             <summary>iCp2022.10000Zについて</summary>
             <div class="details-content">iCp2022.10000ZはiCpの2022年、最新版です。<br>強力な<strong>8コア</strong>CPU<br>iCpではミドルクラスの<strong>Zランク</strong><br>1秒間に約<strong>198,000,000回</strong>の演算回数<br>1時間に60Wの消費電力<br>ハイパワー、任せて。</div>
-          </details>
+            </details>
+          </div>
+        </div>
+        <div id=".4" class="disflex" style="margin-top: 1120px;">
+          <div class="item">
+            <h2 style="font-weight: bold; font-size: 300%;">すべてが進化</h2>
+            <h3>Mapbookのすべてが進化して、登場しました</h3>
+            <p></p>
+          </div>
+          <div class="item">
+            <details style="background-color: azure;">
+            <summary></summary>
+            <div class="details-content"></div>
+            </details>
+          </div>
         </div>
         <a href="#head" class="btn btn--circle btn--circle-c btn--shadow upper" style="font-size: 1vmax;">↑</a>
         <span style="margin-top: 16px;"> </span>
