@@ -60,6 +60,8 @@
 
           /* カテゴリの設定 */
           .msr_newslist03 li .news,
+          .msr_newslist03 li .fix,
+          .msr_newslist03 li .issue,
           .msr_newslist03 li .imp {
             background-color: #2c7ab9;
             border-radius: 1px;
@@ -71,6 +73,12 @@
           }
           .msr_newslist03 li .imp {
             background-color: #df4141;
+          }
+          .msr_newslist03 li .fix {
+            background-color: #19e634;
+          }
+          .msr_newslist03 li .issue {
+            background-color: #8c9da5;
           }
           /* === NEWの差し込み定義 ======================================= */
           /* このサンプルは、2行目のメニューにNEWを付けています            */
@@ -123,7 +131,7 @@
               <a href="news/202112030657.html">
                 <div>
                   <time datetime="2021-12-3">2021.12.03</time>
-                  <p class="imp">重要</p>
+                  <p class="fix">修正</p>
                 </div>
                 <p> aPhone SE購入の不具合の修正 <span class="new"></span></p>
               </a>
@@ -141,7 +149,7 @@
               <a href="news/202112021820.html">
                 <div>
                   <time datetime="2021-12-2">2021.12.02</time>
-                  <p class="imp">重要</p>
+                  <p class="issue">不具合</p>
                 </div>
                 <p> aPhone SEが購入いただけないエラーについて </p>
               </a>
@@ -181,6 +189,26 @@
     <div>
       <time datetime="--">..</time>
       <p class="imp">重要</p>
+    </div>
+    <p>  <span class="new"></span></p>
+  </a>
+</li>
+
+<li>
+  <a href="#">
+    <div>
+      <time datetime="--">..</time>
+      <p class="fix">修正</p>
+    </div>
+    <p>  <span class="new"></span></p>
+  </a>
+</li>
+
+<li>
+  <a href="#">
+    <div>
+      <time datetime="--">..</time>
+      <p class="issue">不具合</p>
     </div>
     <p>  <span class="new"></span></p>
   </a>
