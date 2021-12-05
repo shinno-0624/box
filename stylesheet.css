@@ -55,12 +55,14 @@ height: 100px;
 align-items: center;
 font-family: 'Noto Sans JP', sans-serif;
 font-size: 28px;
-color: #009944;
+background-color: #009944;
 }
 .title {
 margin-right: auto;
 font-size: 36px;
-color: #E60012;
+}
+a.title {
+  color: #E60012;
 }
 .menu-item {
 list-style: none;
@@ -70,6 +72,9 @@ font-family: 'Noto Sans JP', sans-serif;
 font-size: 20px;
 color: #EBCA1B;
 text-align: center;
+}
+a.menu-item {
+  color: #EBCA1B;
 }
 a {
   font-family: 'Noto Sans JP', sans-serif;
