@@ -60,9 +60,8 @@ background-color: #009944;
 .title {
 margin-right: auto;
 font-size: 36px;
-}
-a.title {
-  color: #E60012;
+color: #E60012;
+font-weight: bolder;
 }
 .menu-item {
 list-style: none;
@@ -73,12 +72,8 @@ font-size: 20px;
 color: #EBCA1B;
 text-align: center;
 }
-a.menu-item {
-  color: #EBCA1B;
-}
 a {
   font-family: 'Noto Sans JP', sans-serif;
-  color: #080059;
 }
 .css-fukidashi {
 padding: 0;
