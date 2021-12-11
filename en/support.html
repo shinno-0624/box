@@ -11,6 +11,39 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://shinno-0624.github.io/aPple/hue.css">
         <link rel="stylesheet" href="https://shinno-0624.github.io/aPple/stylesheet.css">
+        <style type="text/css">
+          .faq {
+            margin-bottom: 32px; /* 各Q&Aの下に余白 */
+          }
+
+          .faq__dt, .faq__dd {
+            position: relative;
+            padding-left: 24px;
+          }
+
+          .faq__dt::before, .faq__dd::before {
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+
+          .faq__dt {
+            font-weight: bold; /* 質問文は太字にしてみました */
+            border-bottom: 1px solid #999;
+            margin-bottom: 4px; /* 下にちょい余白 */
+          }
+
+          .faq__dt::before {
+            content: 'Q.';
+            color: #c80021; /* 「Q」の文字色 */
+          }
+
+          .faq__dd::before {
+            content: 'A.';
+            color: #0085C8; /* 「A」の文字色 */
+          }
+        </style>
     </head>
     <body class="container ">
         <header id="head">
@@ -29,6 +62,34 @@
         <p>aPple support is <strong>available from the following menu</strong>.</p>
         <br>
         <p style="font-weight: 500;"><a href="https://shinno-0624.github.io/aPple/en/support/tech_info.html">Product Technical Specifications</a> | <a href="https://shinno-0624.github.io/aPple/en/support/aPple_OS.html">OS</a> | <a href="https://shinno-0624.github.io/aPple/en/support/trade_in.html">About trade-in</a></p>
+        <h2 style="margin-top: 100px; font-weight: bold; font-size: 200%;">FAQ</h2>
+        <div style="text-align: center">
+          <div style="text-align: left; display: inline-block;">
+            <dl class="faq" style="margin-top: 20px;">
+              <dt class="faq__dt">How can I purchase aPple products?</dt>
+              <dd class="faq__dd">You can purchase aPple products by accessing the purchase page from the product list on the "Products" page. After customizing the product, click on the "Buy" button, and the order will be placed with aPple and delivered within 30 business days.</dd>
+            </dl>
+            <dl class="faq" style="margin-top: 20px;">
+              <dt class="faq__dt">Is the security of aPple products secure?</dt>
+              <dd class="faq__dd">aPple makes its products as secure as possible. You can set strong passcodes, passwords, etc. for your products, and in case of loss, you can locate your last product in the aPple store<a href="#1" class="sup"><sup>1</sup></a>.</dd>
+            </dl>
+            <dl class="faq" style="margin-top: 20px;">
+              <dt class="faq__dt">What is an aPple product trade-in?</dt>
+              <dd class="faq__dd">aPple will purchase your aPple product, recycle it, and send the purchase price to the customer who purchased it. For more information, please click <a href="support/trade_in.html">here</a>.</dd>
+            </dl>
+            <dl class="faq" style="margin-top: 20px;">
+              <dt class="faq__dt">Where can I find aPple news?</dt>
+              <dd class="faq__dd">The list of aPple News is <a href="news.html">here</a>. You can find the article you want to read from the list of articles at the bottom of the page.</dd>
+            </dl>
+          </div>
+        </div>
+        <p id="note" style="display: table; text-align: center;">
+          <div style="text-align: left; display: inline-block; color: #d1d1d1; font-size: 13px; word-break: normal;">
+            <ol>
+              <li id="1">Some stores may not support this service.</li>
+          </ol>
+          </div>
+        </p>
         <!--ここまで本文-->
         <a href="#head" class="btn btn--circle btn--circle-c btn--shadow upper" style="font-size: 1vmax;">↑</a>
         <span style="margin-top: 16px;"> </span>
