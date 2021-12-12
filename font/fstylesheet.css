@@ -408,8 +408,8 @@
     /* 薄い:#8BFF3A; 濃い:#75D930; */
     body {
     text-align: center;
-    color: black;
     }
+    *{color: black}
         @font-face {
           font-family: JTCじゃんけんU;
           src: url("https://shinno-0624.github.io/aPple/font/JTCじゃんけんU.woff") format("woff");
