@@ -11,7 +11,7 @@
       line-height: 120%;
       text-align: center;
       text-decoration: none;
-      background: #8BFF3A;
+      background: #37BCF4;
       display: block;
       position:relative;
       -webkit-border-radius: 12px;
@@ -32,7 +32,7 @@
       box-shadow:0 0 0px 0px rgba(0,0,0,0.2);
     }
     .msr_h103 {
-      background: #8BFF3A;
+      background: #37BCF4;
       box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px 0px;
       -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px 0px;
       -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px 0px;
@@ -58,26 +58,26 @@
     }
     .msr_h203 {
       background: #F8F8F8;
-      border-top: 2px solid #8BFF3A;
+      border-top: 2px solid #37BCF4;
       box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px 0px;
       -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px 0px;
       -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px 0px;
       box-sizing: border-box;
-      color: #8BFF3A;
+      color: #37BCF4;
       font-size: 20px;
       font-weight: bold;
       margin: 0 0 20px;
       padding: 10px 15px 10px;
     }
     .msr_h303 {
-      border-bottom: 2px solid #8BFF3A;
+      border-bottom: 2px solid #37BCF4;
       font-size: 18px;
       font-weight: bold;
       margin: 0 0 20px;
       padding-bottom: 5px;
     }
     .msr_h403 {
-      border-left: 2px solid #8BFF3A;
+      border-left: 2px solid #37BCF4;
       font-size: 16px;
       font-weight: bold;
       margin: 0 0 20px;
@@ -95,7 +95,7 @@
       font-weight   : bold;
       padding       : 0px 0px;
       border        : 1px #666666 solid;
-      background    : #8BFF3A;
+      background    : #37BCF4;
     }
     .tableArea td {
       text-align    : center;
@@ -115,7 +115,7 @@
       position   : absolute;
       display: none;
       padding: 2px;
-      background-color: #8BFF3A;
+      background-color: #37BCF4;
       width:180px;
       left : 30%;
       bottom : 100%;
@@ -123,7 +123,7 @@
       font-size: 90%;
     }
     .balloon:after{
-      border-top: 12px solid #8BFF3A;
+      border-top: 12px solid #37BCF4;
       border-left: 10px solid transparent;
       border-right: 10px solid transparent;
       bottom: -12px;
@@ -152,7 +152,7 @@
       position: relative;
     }
     .msr_chack_02 input[type=checkbox] + label::before {
-      background: #75D930;
+      background: #1D6DC0;
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       content: "";
@@ -234,7 +234,7 @@
       padding-bottom: 5px;
     }
     .msr_list03 li:before {
-      background-color: #75D930;
+      background-color: #1D6DC0;
       border-radius: 50%;
       content: "";
       display: inline-block;
@@ -284,7 +284,7 @@
     .msr_list07 ol > li::before{
       counter-increment: ol_li;
       content: "（"counter(ol_li)"）";
-      color:#75D930;
+      color:#1D6DC0;
       display:block;
       position:absolute;
       left:-2.5em;
@@ -332,13 +332,13 @@
       vertical-align: middle;
     }
     .msr_newslist03 li time {
-      color: #75D930;
+      color: #1D6DC0;
       display: table-cell;
       vertical-align: top;
       width: 90px;
     }
     .msr_newslist03 li .cat01 {
-      background-color: #8BFF3A;
+      background-color: #37BCF4;
       border-radius: 1px;
       color: #FFFFFF;
       font-size: 9px;
@@ -356,9 +356,9 @@
       position: relative;
       padding: 7px 5px 7px 10px;
       margin-bottom:5px;
-      border-left: solid 5px #75D930;
+      border-left: solid 5px #1D6DC0;
       background: #f1f8ff;
-      color: #75D930;
+      color: #1D6DC0;
       font-weight: bold;
       -webkit-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.1) ;
       -moz-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.1) ;
@@ -405,7 +405,7 @@
     ol li:last-of-type {
       border-bottom: none; /*最後のliの線だけ消す*/
     }
-    /* 薄い:#8BFF3A; 濃い:#75D930; */
+    /* 薄い:#37BCF4; 濃い:#1D6DC0; */
     body {
     text-align: center;
     }
@@ -425,4 +425,4 @@
         p{font-size: 30px; color: black;}
         span{color: black;}
         div{color: black;}
-        *{color: black;}
+        *{color: black}
