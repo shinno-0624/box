@@ -409,7 +409,6 @@
     body {
     text-align: center;
     }
-    *{color: black}
         @font-face {
           font-family: JTCじゃんけんU;
           src: url("https://shinno-0624.github.io/aPple/font/JTCじゃんけんU.woff") format("woff");
@@ -419,8 +418,8 @@
           src: url("https://shinno-0624.github.io/aPple/font/fortnite.woff") format("woff");
         }
         .font {font-family: "BurbankBig","JTCじゃんけんU";}
-        h1{font-size: 60px;}
-        h2{font-size: 50px;}
-        h3{font-size: 40px;}
-        h4{font-size: 36px;}
-        p{font-size: 30px;}
+        h1{font-size: 60px; color: black;}
+        h2{font-size: 50px; color: black;}
+        h3{font-size: 40px; color: black;}
+        h4{font-size: 36px; color: black;}
+        p{font-size: 30px; color: black;}
