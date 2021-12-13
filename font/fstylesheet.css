@@ -418,11 +418,11 @@
           src: url("https://shinno-0624.github.io/aPple/font/fortnite.woff") format("woff");
         }
         .font {font-family: "BurbankBig","JTCじゃんけんU";}
-        h1{font-size: 60px; color: black;}
-        h2{font-size: 50px; color: black;}
-        h3{font-size: 40px; color: black;}
-        h4{font-size: 36px; color: black;}
-        p{font-size: 30px; color: black;}
+        h1{color: black;}
+        h2{color: black;}
+        h3{color: black;}
+        h4{color: black;}
+        p{color: black;}
         span{color: black;}
         div{color: black;}
         *{color: black}
