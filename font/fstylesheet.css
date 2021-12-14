@@ -103,7 +103,7 @@
       border        : 1px #666666 solid;
     }
     .tableArea tr:nth-child(2n+1) {
-      background    : #aaff6d;
+      background    : #1D6DC0;
     }
     .balloonoya {
       position   : relative;
@@ -371,10 +371,10 @@
       counter-reset:number; /*数字をリセット*/
       list-style-type: none!important; /*数字を一旦消す*/
       padding: 0.3em 0.8em;
-      border: solid 2px #ffb107;
+      border: solid 2px #37BCF4;
     }
     ol.olsample1 li{
-      border-bottom: dashed 1px orange;
+      border-bottom: dashed 1px #37BCF4;
       position: relative;
       padding: 0.5em 0.5em 0.5em 30px;
       line-height: 1.5em;
@@ -386,7 +386,7 @@
       content: counter(number);
       /*数字のデザイン変える*/
       display:inline-block;
-      background: #ffb107;
+      background: #37BCF4;
       color: white;
       font-family: 'Avenir','Arial Black','Arial',sans-serif;
       font-weight:bold;
