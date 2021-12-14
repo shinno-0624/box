@@ -102,9 +102,6 @@
       padding       : 0px 0px;
       border        : 1px #666666 solid;
     }
-    .tableArea tr:nth-child(2n+1) {
-      background    : #37BCF4;
-    }
     .balloonoya {
       position   : relative;
     }
