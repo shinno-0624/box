@@ -97,12 +97,12 @@
       border        : 1px #666666 solid;
       background    : #1D6DC0;
     }
-    .tableArea td {
+    .tableArea tr {
       text-align    : center;
       padding       : 0px 0px;
       border        : 1px #666666 solid;
     }
-    .tableArea tr:nth-child(2n+1) {
+    .tableArea td:nth-child(2n+1) {
       background    : #37BCF4;
     }
     .balloonoya {
