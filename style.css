@@ -146,6 +146,13 @@
 .newslist li .blog {
   background-color: #18A4C6;
 }
-.body {
+.body .div .p {
   color: black;
+}
+.qtat{
+  font-size: 22px;
+}
+.qtmn{
+  font-size: 28px;
+  color: red;
 }
