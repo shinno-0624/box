@@ -187,6 +187,7 @@ table {
 th, td {
   text-align: center;
   padding: 10px;
+  vertical-align: top;
 }
 th {
   font-weight: normal;
