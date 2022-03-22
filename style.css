@@ -181,14 +181,16 @@ table {
 .calendar {
   padding: 0 30px 30px 30px;
 }
-table {
+.calendar table {
   width: 100%;
+  border: #000000;
 }
-th, td {
+.calendar th, td {
   text-align: center;
   padding: 10px;
   vertical-align: top;
   margin: 6px;
+  border: solid 1px;
 }
 th {
   font-weight: normal;
@@ -217,4 +219,7 @@ th *:last-child {
 }
 .holiday {
   color: #C70C27;
+}
+.end {
+  color: white;
 }
