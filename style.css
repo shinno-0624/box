@@ -171,6 +171,7 @@ table {
   border-collapse: collapse;
 }
 .calendar-container {
+  text-align: center;
   width: 500px;
   margin: 0 auto;
   border-radius: 5px;
