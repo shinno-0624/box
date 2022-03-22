@@ -182,7 +182,7 @@ table {
   padding: 0 30px 30px 30px;
 }
 .calendar table {
-  width: 100%;
+  width: 150%;
   border: #000000;
 }
 .calendar th, td {
