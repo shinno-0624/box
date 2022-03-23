@@ -175,7 +175,6 @@ table {
   width: 500px;
   margin: 0 auto;
   border-radius: 5px;
-  background: #f6f5f4;
   color: #1a1a1a;
 }
 .calendar {
@@ -190,7 +189,7 @@ table {
   padding: 10px;
   vertical-align: top;
   margin: 6px;
-  border: solid 1px;
+  border: solid 1px black;
 }
 th {
   font-weight: normal;
