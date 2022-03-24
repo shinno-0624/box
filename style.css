@@ -172,7 +172,7 @@ table {
 }
 .calendar-container {
   text-align: center;
-  width: 500px;
+  width: 100%;
   margin: 0 auto;
   border-radius: 5px;
   color: #1a1a1a;
@@ -181,7 +181,6 @@ table {
   padding: 0 30px 30px 30px;
 }
 .calendar table {
-  width: 100%;
   border: #000000;
 }
 .calendar th, td {
@@ -189,7 +188,7 @@ table {
   padding: 10px;
   vertical-align: top;
   margin: 6px;
-  border: solid 1px black;
+  border: solid 0.7px black;
 }
 th {
   font-weight: normal;
