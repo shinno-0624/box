@@ -184,7 +184,6 @@ table {
   border: #000000;
 }
 .calendar th, td {
-  text-align: center;
   padding: 10px;
   vertical-align: top;
   margin: 6px;
