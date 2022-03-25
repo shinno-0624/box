@@ -180,20 +180,11 @@ table {
 .calendar {
   padding: 0 30px 30px 30px;
 }
-.calendar table {
-  border: #000000;
-}
 .calendar th, td {
   padding: 10px;
   vertical-align: top;
   margin: 6px;
-  border: solid 0.7px black;
-}
-th {
-  font-weight: bolder;
-  font-size: 14px;
-}
-td {
+  border: 1px solid #ccc;
   font-weight: bolder;
 }
 .day *:first-child {
