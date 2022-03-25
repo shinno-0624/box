@@ -190,11 +190,11 @@ table {
   border: solid 0.7px black;
 }
 th {
-  font-weight: normal;
+  font-weight: bolder;
   font-size: 14px;
 }
 td {
-  font-weight: bold;
+  font-weight: bolder;
 }
 .day *:first-child {
   color: #C70C27;
@@ -202,17 +202,18 @@ td {
 .day *:last-child {
   color: #0077CC;
 }
-th *:first-child {
+.bor *:first-child {
   color: #C70C27;
 }
-th *:last-child {
+.bor *:last-child {
   color: #0077CC;
 }
 .unaviable {
   color: #AAAAAA;
 }
 .ticketleft {
-  color: #0077CC;
+  color: black;
+  font-weight: normal;
 }
 .holiday {
   color: #C70C27;
