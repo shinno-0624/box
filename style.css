@@ -185,7 +185,6 @@ table {
   vertical-align: top;
   margin: 6px;
   border: 1px solid #ccc;
-  font-weight: bolder;
 }
 .day *:first-child {
   color: #C70C27;
