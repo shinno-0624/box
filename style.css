@@ -1,4 +1,3 @@
-
 .iconTag {
   background: #07c;
   color: #fff;
@@ -202,7 +201,11 @@ table {
   color: #AAAAAA;
 }
 .ticketleft {
-  color: black;
+  color: #0077CC;
+  font-weight: normal;
+}
+.notleft {
+  color: #AAAAAA;
   font-weight: normal;
 }
 .holiday {
