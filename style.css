@@ -167,7 +167,11 @@ td, th {
   padding: 10px;
 }
 table {
-  border-collapse: collapse;
+  border-collapse: separate;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  border-spacing: 0;
+  overflow: hidden;
 }
 .calendar-container {
   text-align: center;
@@ -183,7 +187,6 @@ table {
   padding: 10px;
   vertical-align: top;
   margin: 6px;
-  border: 1px solid #ccc;
 }
 .day *:first-child {
   color: #C70C27;
@@ -196,6 +199,9 @@ table {
 }
 .bor *:last-child {
   color: #0077CC;
+}
+.bor {
+  background-color: #FDF5F8;
 }
 .unaviable {
   color: #AAA;
