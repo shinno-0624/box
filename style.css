@@ -198,14 +198,14 @@ table {
   color: #0077CC;
 }
 .unaviable {
-  color: #AAAAAA;
+  color: #AAA;
 }
 .ticketleft {
   color: #0077CC;
   font-weight: normal;
 }
 .notleft {
-  color: #AAAAAA;
+  color: #AAA;
   font-weight: normal;
 }
 .finish {
