@@ -208,6 +208,10 @@ table {
   color: #AAAAAA;
   font-weight: normal;
 }
+.finish {
+  color: white;
+  font-weight: normal;
+}
 .holiday {
   color: #C70C27;
 }
