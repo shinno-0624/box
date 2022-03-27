@@ -177,7 +177,7 @@ table {
 .calendar {
   padding: 0 30px 30px 30px;
 }
-.calendar th td {
+.calendar th, td {
   padding: 10px;
   vertical-align: top;
   margin: 6px;
