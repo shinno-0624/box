@@ -161,7 +161,7 @@
 }
 td, th {
   vertical-align: middle;
-  border: solid 1px;
+  border: solid 1px #333;
   padding: 10px;
 }
 table {
@@ -181,7 +181,7 @@ table {
   padding: 10px;
   vertical-align: top;
   margin: 6px;
-  border: 1px solid #ccc;
+  border: 1px solid #333;
 }
 .day *:first-child {
   color: #C70C27;
