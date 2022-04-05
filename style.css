@@ -227,3 +227,6 @@ table tbody tr:last-child th,
 table tbody tr:last-child td {
   border-bottom: none;
 }
+* {
+  color: #333;
+}
