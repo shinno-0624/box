@@ -209,6 +209,7 @@ a {
  font-weight: bold;
 }
 table {
+  min-width: 370px;
   width: 100%;
   border: 1px solid #aaa;
   border-collapse: separate;
