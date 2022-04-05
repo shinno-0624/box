@@ -166,15 +166,6 @@
   border-radius: 5px;
   color: #1a1a1a;
 }
-.calendar {
-  padding: 0 30px 30px 30px;
-}
-.calendar th, td {
-  padding: 10px;
-  vertical-align: top;
-  margin: 6px;
-  border: 1px solid #ccc;
-}
 .day *:first-child {
   color: #C70C27;
 }
@@ -194,7 +185,7 @@
   color: #AAA;
 }
 .ticketleft {
-  color: #0077CC;
+  color: #07C;
   font-weight: normal;
 }
 .notleft {
