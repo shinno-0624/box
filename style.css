@@ -216,7 +216,6 @@ table {
   border-spacing: 0;
   border-radius: 6px;
   overflow: hidden;
-  table-layout: fixed;
 }
 th, td {
   border-bottom: 1px solid #ccc;
