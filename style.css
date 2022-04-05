@@ -164,6 +164,7 @@
   width: 100%;
   margin: 0 auto;
   color: #1a1a1a;
+  padding: 0;
 }
 .day *:first-child {
   color: #C70C27;
