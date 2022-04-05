@@ -226,3 +226,6 @@ a {
  text-decoration: none;
  font-weight: bold;
 }
+table {
+  border-radius: 6px;
+}
