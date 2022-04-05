@@ -159,14 +159,6 @@
   font-size: 16px;
   color: black;
 }
-td, th {
-  vertical-align: middle;
-  border: solid 1px #ccc;
-  padding: 10px;
-}
-table {
-  border-collapse: collapse;
-}
 .calendar-container {
   text-align: center;
   width: 80%;
