@@ -169,13 +169,13 @@
   color: #C70C27;
 }
 .day *:last-child {
-  color: #0077CC;
+  color: #07c;
 }
 .bor *:first-child {
   color: #C70C27;
 }
 .bor *:last-child {
-  color: #0077CC;
+  color: #07c;
 }
 .bor {
   background-color: #FDF5F8;
