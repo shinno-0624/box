@@ -210,7 +210,7 @@ a {
  font-weight: bold;
 }
 table {
-  width: 100% auto;
+  width: 100%;
   border: 1px solid #aaa;
   border-collapse: separate;
   border-spacing: 0;
