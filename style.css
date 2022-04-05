@@ -227,5 +227,10 @@ a {
  font-weight: bold;
 }
 table {
+  width: 100%;
+  border: 1px solid #ccc;
   border-radius: 5px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
 }
