@@ -161,10 +161,9 @@
 }
 .calendar-container {
   text-align: center;
-  width: 100%;
+  width: 90%;
   margin: 0 auto;
   color: #1a1a1a;
-  padding: 0;
 }
 .day *:first-child {
   color: #C70C27;
