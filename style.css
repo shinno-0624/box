@@ -210,9 +210,23 @@ a {
 }
 table {
   width: 100%;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 1px solid #aaa;
   border-collapse: separate;
   border-spacing: 0;
+  border-radius: 6px;
   overflow: hidden;
+}
+table thead th,
+table tbody th,
+table tbody td {
+  padding: .6em 3em;
+  border-bottom: 1px solid #ccc;
+}
+table thead th + th,
+table tbody td {
+  border-left: 1px solid #ccc;
+}
+table tbody tr:last-child th,
+table tbody tr:last-child td {
+  border-bottom: none;
 }
