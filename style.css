@@ -226,6 +226,6 @@ a {
  text-decoration: none;
  font-weight: bold;
 }
-table {
+th, tr {
   border-radius: 6px;
 }
