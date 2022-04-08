@@ -1,0 +1,19 @@
+table {
+ width: 100%;
+ border: 1px solid #aaa;
+ border-collapse: separate;
+ border-spacing: 0;
+ border-radius: 6px;
+ overflow: hidden;
+}
+th, td {
+ border-bottom: 1px solid #ccc;
+ padding: 2px 0px;
+}
+th, td {
+ border-left: 1px solid #ccc;
+}
+table tbody tr:last-child th,
+table tbody tr:last-child td {
+ border-bottom: none;
+}
