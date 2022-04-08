@@ -231,3 +231,82 @@ table tbody tr:last-child td {
 * {
   color: #333;
 }
+.queuetime-box {
+  border-top: 1.25px solid #07c;
+  padding: 2px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+ .queuetime{
+  width: 100%;
+ }
+ .queuetime th, td {
+  border: 0px none;
+  /* border: 1px solid black; */
+  text-align: left;
+ }
+ .attraction-name {
+  color: #07c;
+  font-size: 22px;
+  font-weight: normal;
+ }
+ .queuetime-time {
+  line-height: 1;
+  font-size: 14px;
+  font-weight: bold;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+  width: 120px;
+ }
+ .time-time {
+  color: #c70c27;
+  font-size: 24px;
+ }
+ .queuetime-discription img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+ }
+ .queuetime-hr {
+  display: block;
+  width: 100%;
+  height: .5px;
+  background-color: #ccc;
+  border: 0;
+ }
+ .queuetime-discription {
+  text-align: left;
+  width: 100%;
+ }
+ .attraction-img {
+  width: 40%;
+ }
+ .operation-info {
+  vertical-align: top;
+ }
+ .operation-disc {
+  background: #f5fcff;
+  padding: 8px 5px 4px 10px;
+  width: 100%;
+  align-items: center;
+  font-weight: bold;
+  text-align: left;
+ }
+ .operating {
+  color: #07c;
+  margin-right: 16px;
+ }
+ .lightningline-info {
+  color: #c70c27;
+ }
+ .update-time {
+  color: #333;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: right;
+ }
+ .queuetime-link {
+  font-weight: normal;
+ }
