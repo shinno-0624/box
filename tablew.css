@@ -17,3 +17,6 @@ table tbody tr:last-child th,
 table tbody tr:last-child td {
  border-bottom: none;
 }
+th:first-child, td:first-child {
+ border-left: 0px none;
+}
