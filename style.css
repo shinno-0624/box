@@ -210,3 +210,6 @@ a {
  text-decoration: none;
  font-weight: bold;
 }
+hr{
+  border: #333 solid .75px;
+}
