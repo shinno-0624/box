@@ -211,5 +211,5 @@ a {
  font-weight: bold;
 }
 hr{
-  border: #333 solid .1px;
+  border-top: 1px solid #333;
 }
