@@ -179,7 +179,7 @@
   color: #07c;
 }
 .bor {
-  background-color: #FDF5F8;
+  background-color: #fdf5f8;
 }
 .unaviable {
   color: #AAA;
@@ -209,6 +209,7 @@ img {
 a {
  text-decoration: none;
  font-weight: bold;
+ color: #07c;
 }
 hr{
   border-top: 0.5px solid #333;
