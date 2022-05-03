@@ -147,7 +147,7 @@
   background-color: #18A4C6;
 }
 .body .div .p {
-  color: black;
+  color: #333;
 }
 .qtat{
   font-size: 22px;
@@ -158,7 +158,7 @@
 }
 .ukch{
   font-size: 16px;
-  color: black;
+  color: #333;
 }
 .calendar-container {
   text-align: center;
