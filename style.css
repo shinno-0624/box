@@ -212,5 +212,8 @@ a {
  font-weight: bold;
 }
 hr{
+  height: 0.5px;
+  background-color: #07c;
+  border: none;
   color: #07c;
 }
