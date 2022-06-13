@@ -63,6 +63,14 @@
  font-weight: bold;
  text-align: left;
 }
+.operation-disc-black {
+ background: #f5f5f5;
+ padding: 8px 5px 4px 10px;
+ width: 100%;
+ align-items: center;
+ font-weight: bold;
+ text-align: left;
+}
 .operating {
  color: #07c;
  margin-right: 16px;
